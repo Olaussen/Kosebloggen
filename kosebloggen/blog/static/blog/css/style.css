@@ -1,3 +1,55 @@
-#wrappercontainer {
-    background: red;
+body {
+    background-image: radial-gradient(circle, black, rgb(69, 74, 75), rgb(153, 149, 146));
+}
+
+#navheader {
+    position: relative;
+    bottom: 35px;
+    left: 42%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+#welcomeheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    padding: 40px;
+    border: 2px solid rgb(50, 50, 50);
+}
+
+#postdetailwrapper {
+    margin-left: 30%;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+#aboutcontactwrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    color: white
+}
+
+.navbarli>a {
+    position: relative;
+    bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav-wrapper {
+    background: black;
+    padding: 40px
+}
+
+.reccard {
+    margin-bottom: 30px;
+    width: 50%;
+    height: auto;
+}
+
+h3 {
+    color: white;
 }

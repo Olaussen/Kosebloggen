@@ -13,11 +13,11 @@
     <!-- Navbar -->
     <div id="wrappercontainer">
         <nav>
-            <div class="nav-wrapper red">
-                <a href="{% url 'home'  %}" class="brand-logo center">Kosebloggen</a>
+            <div class="nav-wrapper">
+                <a id="navheader" href="{% url 'home'  %}" class="brand-logo center">Kosebloggen</a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="{% url 'about' %}">Om</a></li>
-                    <li><a href="{% url 'contact' %}">Kontakt</a></li>
+                    <li class="navbarli"><a href="{% url 'about' %}">Om</a></li>
+                    <li class="navbarli"><a href="{% url 'contact' %}">Kontakt</a></li>
                 </ul>
             </div>
         </nav>
